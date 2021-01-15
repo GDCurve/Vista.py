@@ -55,6 +55,6 @@ async def kick(ctx):
 async def ban(ctx):
     await ctx.send('ban in progress bruh')
 
-token = os.environ.get('BOT_TOKEN')
 
-client.run(token)
+
+client.run(os.environ['BOT_TOKEN'])
