@@ -1,2 +1,2 @@
 # Vista.py
-Discord bot for fun
+Izmanto pip random2, un pip discord
