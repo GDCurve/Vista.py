@@ -56,5 +56,9 @@ async def ban(ctx):
     await ctx.send('ban in progress bruh')
 
 
+@client.command()
+async def nut(ctx):
+    await ctx.send("Honey nut cheerios with extra nut.")
+
 
 client.run(os.environ['BOT_TOKEN'])
